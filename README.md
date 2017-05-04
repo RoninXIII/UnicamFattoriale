@@ -18,3 +18,24 @@ senti, ho provato ad usare il programma ma ancora non va bene. Ti segnalo queste
 * Ogni volta che digito un numero, poi sono costretto a riaprire il programma per digitarne un altro ma... vabbé, avevamo detto che questa cosa l'avremmo vista in seguito.
 
 Fammi sapere.
+
+
+# UnicamFattoriale
+This program asks the user to input a number so it can print its [factorial](https://en.wikipedia.org/wiki/Factorial).
+
+## Desired behavior (program specifics)
+ 1. The user must be asked to input an integer number;
+ 2. The program should not throw exceptions even if the user inputs a large number (take a look at the [BigInteger](https://msdn.microsoft.com/it-it/library/system.numerics.biginteger(v=vs.110).aspx) type instead of int). When the user inputs a non-numerical value, than the program should print "Your input was not correct, please type an integer number again";
+ 3. If the user inputs a correct value, then the program should print "The factorial of the number `number` is `result`";
+ 4. The result must be correct;
+ 5. By convention, the factorial of 0 is 1. The program must handle this case;
+ 6. *Nice-to-have*: after the calculation, the program should ask the user to input another number, until he provides an invalid input. *Notice: features labeled as "nice-to-have" ARE NOT essential but they improve the user experience*
+
+ ## Email from Bob (the client) about the current state of this program
+Hey,
+listen, I tried using the program but it's still not working correctly. Here's the shortcomings.
+* Whenever I type some random text or a large number, the application gives an error;
+* If I type any numner, the program prints "The factorial of -1 us 0". Why is that?
+* Whenever I type a number, then I have to close and reopen the application... however, I know we said this problem would be solved later.
+
+Let me know when it's working.
